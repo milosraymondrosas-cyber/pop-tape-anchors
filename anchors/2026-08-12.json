@@ -1,0 +1,9 @@
+{
+  "day": "2026-08-12",
+  "window": { "start": "2026-08-12T06:00:00+00:00", "end": "2026-08-13T06:00:00+00:00" },
+  "tickCount": 93536,
+  "algo": "sha256 over person_id|captured_at_utc_ms|score(2dp) lines, ordered by person_id then captured_at, price-v1 rows, joined with \\n",
+  "digest": "136d701f220abeb1506eefeb53f64991289c6b8ef15b524a31c099a73c892ac3",
+  "links": { "methodology": "/api/public/methodology", "anchors": "https://github.com/milosraymondrosas-cyber/pop-tape-anchors" },
+  "note": "First anchor, seeded manually at repo creation and verified against the database directly; daily anchors from 2026-08-13 onward land via the scheduled workflow."
+}
